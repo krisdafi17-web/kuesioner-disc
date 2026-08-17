@@ -278,7 +278,7 @@
 
 <script>
     // PERHATIAN: GANTI URL DI BAWAH INI DENGAN URL GOOGLE APPS SCRIPT ANDA
-    const SCRIPT_URL = 'URL_APPS_SCRIPT_ANDA_DISINI'; 
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzF6lAHLu7_Bjov0TC1gQlU5vMZ_sa3CgA0NuqwGMw4gjDWR35chlV1A3-XLGQe2Yyt/exec'; 
 
     let timerInterval;
     const TIME_LIMIT = 600; // 10 menit
@@ -440,7 +440,7 @@
         userProfile.email = document.getElementById('userEmail').value;
         userProfile.name = document.getElementById('userName').value;
 
-        if(SCRIPT_URL === 'URL_APPS_SCRIPT_ANDA_DISINI') {
+        if(SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbzF6lAHLu7_Bjov0TC1gQlU5vMZ_sa3CgA0NuqwGMw4gjDWR35chlV1A3-XLGQe2Yyt/exec') {
             alert('PERHATIAN: Anda belum memasukkan URL Script. Fitur Database tidak jalan.');
             return;
         }
